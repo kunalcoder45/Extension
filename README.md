@@ -20,7 +20,7 @@ A simple MacOS-style dock with clock and date display. The dock includes shortcu
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/macos-style-dock.git
+   https://github.com/kunalcoder45/Extension.git
    ```
 2. Navigate to the project folder:
    ```bash
