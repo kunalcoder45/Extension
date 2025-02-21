@@ -1,7 +1,5 @@
 # Extension
 
-# Extension
-
 A simple MacOS-style dock with clock and date display. The dock includes shortcut icons for commonly used websites and provides a smooth hover effect similar to MacOS.
 
 ## Features
