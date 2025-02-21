@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: contain;
+    background: #000;
+    background-image: url('/icons/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: white;
+    font-family: Arial, sans-serif;
+    user-select: none;
+}
+
+.clock {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.date {
+    font-size: 1.5rem;
+}
+
+.dock {
+    display: flex;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(10px);
+}
+
+.dock-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dock-item:hover img {
+    transform: scale(1.5);
+}
